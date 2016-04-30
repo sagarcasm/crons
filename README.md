@@ -1,12 +1,30 @@
-# Crons
-These are Automated scripts for domain server management are just for representation purposes from the company which I have worked in.
-To know the details of the scripts and how they were implemented please contact me at the profile email id.
+=== KRT Project (Liquor Authority Quarterly Analysis) ===
+Contributors: Sagar Sawant, Aniket Shukla, Nikhil Nair 
+Tags: Liqour, Analysis, PHP, MongoDB
+Requires at least: Mongodb, PHP, Apache
+Tested up to: 25k records approx
+Stable tag: 1.0
 
-The scripts include 
-•	Integrated automated crons (scripts) to report the system status of the server and domain. 
-• The defacement application report, corrupt database check report, 
-• file permission check on server files system, 
-• speed test for servers
-• AWS CloudWatch and integrated a server cpanel emails cron which bears reports to the server emails for the cpanel remote servers through the Secure Shell connection while recording it in a EAV (Entity Attribute Value) based traditional, relational database and representation on HighCharts JS.
+Liquor Authority List of Active Licenses Analysis
+Dataset - https://catalog.data.gov/dataset/liquor-authority-quarterly-list-of-active-licenses
 
-All the scripts are written in CodeIgniter Framework, though all teh scripts are uploaded it just for teh representation purposes for the work done as a PHP developer.
+
+== Description ==
+
+<span style="color: #444444; font-family: Lato, Arial, sans-serif; font-size: 14px; line-height: 20px;">This dataset is intended for public access and use. The is derived from </span><span style="font-family: Lato, Arial, sans-serif; color: #444444;"><span style="font-size: 14px; line-height: 20px;">The home of the U.S. Government’s open data ,h</span></span><span style="font-size: 14px; line-height: 20px; color: #444444; font-family: Lato, Arial, sans-serif;">ere you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations(ref: </span><span style="font-family: Lato, Arial, sans-serif; color: #444444;"><span style="font-size: 14px; line-height: 20px;">http://www.data.gov/</span></span><span style="color: #444444; font-family: Lato, Arial, sans-serif; font-size: 14px; line-height: 20px;">). This tool can be used for data analysis for the liquor consumption, licensing distribution, areawise liquor analytics and heatmaps.</span>
+
+ 
+
+== Installation ==
+
+1.  Installation of MongoDB for Windows (https://www.mongodb.org/downloads#production) 
+2.  Install Apache Services for Windows, preferably Xamp https://www.apachefriends.org/index.html
+3.  After installing on the Apache services for PHP
+4.  You can test the apcahe services from by opening the http://locahost in your browser.
+5.  Copy all the files from the project in the htdocs folder
+6.  You may now open the broswer again go on the following link http://localhost/mongo/mongo.php
+7.  The script will do the work for you, it will show the uploaded csv file and the records and display you limited a limited number of the records from the database.
+
+==Readme Generator== 
+
+This Readme file was generated using <a href = 'http://sudarmuthu.com/wordpress/wp-readme'>wp-readme</a>, which generates readme files for WordPress Plugins.
